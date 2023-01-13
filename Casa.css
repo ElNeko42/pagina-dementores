@@ -164,7 +164,6 @@
   grid-template-columns: 50% 50%;
   min-height: 375px;
   grid-gap: 0px 0px;
-  grid-auto-columns: 50%;
 }
 
 .u-section-4 .u-container-layout-1 {
@@ -212,7 +211,6 @@
   }
 
   .u-section-4 .u-repeater-1 {
-    grid-template-columns: repeat(2, 50%);
     min-height: 309px;
   }
 
@@ -232,7 +230,6 @@
 @media (max-width: 991px) {
   .u-section-4 .u-repeater-1 {
     grid-template-columns: 100%;
-    grid-auto-columns: 100%;
   }
 
   .u-section-4 .u-image-1 {
@@ -456,6 +453,7 @@
 .u-section-7 .u-image-1 {
   min-height: 576px;
   background-image: url("images/6fb6c9_1da29448ad8f4a3f8b26bd7114c597c5_mv2.webp");
+  background-position: 50% 50%;
 }
 
 .u-section-7 .u-container-layout-1 {
